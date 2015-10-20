@@ -1,0 +1,15 @@
+# msm8994-caf-6.0
+
+Getting Started
+---------------
+
+To get started with CAF, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CAF trees, use a command like this:
+
+    repo init -u https://github.com/k2wl/msm8994-caf-6.0.git -b master
+
+Then to sync up:
+
+    repo sync
