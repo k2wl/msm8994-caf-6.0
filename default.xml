@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="gh"
-           fetch="https://github.com/" />
+           fetch="https://github.com/" 
+           sync-c="true" />
            
   <remote fetch="git://codeaurora.org/" 
-          name="caf" review="codeaurora.org"/>
+          name="caf" 
+          review="codeaurora.org"
+          sync-c="true" />
   
   <default remote="caf" revision="LA.BF64.1.2.2_rb4.1"/>
   <project groups="pdk-cw-fs" name="device/common"/>
